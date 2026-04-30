@@ -113,10 +113,13 @@ ul {
 }
 
 ul li a {
-  display: block;
+  display: grid;
+  place-items: center;
   width: 100%;
-  text-align: center;
+  text-align: center !important;
+  text-align-last: center;
   line-height: 24px;
+  white-space: normal;
 
   padding: 16px 24px;
 
@@ -131,6 +134,10 @@ ul li a {
   font-weight: 500;
 
   transition: background 0.2s;
+}
+
+ul li a * {
+  text-align: center !important;
 }
 
 /* pseudo-selector*/
