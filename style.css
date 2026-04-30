@@ -113,10 +113,10 @@ ul {
 }
 
 ul li a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  width: 100%;
   text-align: center;
+  line-height: 24px;
 
   padding: 16px 24px;
 
