@@ -163,6 +163,11 @@ ul li a:hover {
   padding: 16px;
 }
 
+#social-links img {
+  width: 28px;
+  height: auto;
+}
+
 footer {
   padding: 24px;
   text-align: center;
