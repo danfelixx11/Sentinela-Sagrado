@@ -1,42 +1,87 @@
-# Daniel Félix | Links Profissionais 🔗
+# Sentinela Sagrado
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+Página de links oficial do projeto **Sentinela Sagrado**, criada para reunir conteúdos, produtos digitais, livros, redes sociais e projetos relacionados em um único cartão digital responsivo.
 
-Bem-vindo ao meu cartão de visitas digital! Este projeto é um agregador de links centralizado, construído para ser o ponto de partida para minhas redes profissionais e portfólios.
+## Sobre o projeto
 
-<br>
+Este repositório contém um site estático em HTML, CSS e JavaScript. A página funciona como uma vitrine de acesso rápido para materiais do Sentinela Sagrado, incluindo guia gratuito, ebook, livros, Estantya e redes sociais.
 
-<p align="center">
-  <img alt="Preview da Minha Página de Links" src=".github/preview.jpg" width="100%">
-</p>
+O layout foi construído a partir da proposta de página de links no estilo DevLinks, com identidade visual própria, imagens locais, alternância entre tema claro e escuro e adaptação para desktop e mobile.
 
-## 📍 Veja a Página Ao Vivo
+## Funcionalidades
 
-Acesse a versão final e funcional do meu cartão de visitas digital no link abaixo:
+- Lista centralizada de links para produtos, livros e projetos.
+- Alternância entre modo claro e modo escuro.
+- Troca automática do avatar conforme o tema selecionado.
+- Imagens de fundo diferentes para mobile, desktop, light mode e dark mode.
+- Links sociais com ícones do Ionicons e marca da Estantya.
+- Layout responsivo sem dependência de build.
 
-**[➡️ Meus Links - Daniel Félix](https://danfelixx11.github.io/danfelix-links/)**
+## Tecnologias
 
-## ✨ Sobre o Projeto
+- **HTML5** para a estrutura da página.
+- **CSS3** para responsividade, temas, animações e estilos visuais.
+- **JavaScript** para a troca de tema e atualização do avatar.
+- **Ionicons** via CDN para ícones sociais.
+- **Google Fonts** via CDN para a fonte Inter.
 
-Este é um projeto pessoal criado a partir do curso **"Discover" da Rocketseat**. A base foi o projeto "DevLinks", que personalizei com meu próprio conteúdo, estilo e links, transformando-o em minha identidade digital.
+## Estrutura
 
-### Funcionalidades Implementadas:
-* **Lista de Links Personalizada:** Direciona para meus principais perfis, como LinkedIn e GitHub.
-* **Light/Dark Mode:** Um interruptor interativo que altera o tema da página, utilizando variáveis CSS e JavaScript para a lógica.
-* **Design Responsivo:** A interface se adapta para uma boa experiência em desktops e celulares.
+```text
+.
+├── assets/
+│   ├── avatar.png
+│   ├── avatar-light.png
+│   ├── bg-desktop.jpg
+│   ├── bg-desktop-light.jpg
+│   ├── bg-mobile.jpg
+│   ├── bg-mobile-light.jpg
+│   ├── estantya.branco.png
+│   ├── moon-stars.svg
+│   └── sun.svg
+├── index.html
+├── script.js
+├── style.css
+└── README.md
+```
 
-## 🛠️ Tecnologias Utilizadas
+## Como executar localmente
 
-* **HTML5:** Para a estrutura semântica da página.
-* **CSS3:** Para a estilização, incluindo Flexbox para layout, variáveis para o sistema de temas e animações.
-* **JavaScript:** Para a funcionalidade de troca de tema e manipulação do DOM.
-* **Git/GitHub:** Para versionamento e para o deploy da página via GitHub Pages.
+Como o projeto é estático, basta abrir o arquivo `index.html` no navegador.
 
-## 📫 Conecte-se Comigo
+Também é possível usar qualquer servidor local simples. Por exemplo, com Python:
 
-* **LinkedIn:** [Daniel Félix de Oliveira](https://www.linkedin.com/in/danfelix-dev/)
-* **Instagram Dev:** [@danfelix.dev](https://www.instagram.com/danfelix.dev/)
-* **GitHub Principal:** [@danfelixx11](https://github.com/danfelixx11)
-* **Canal do YouTube:** [@danfelix-dev](https://www.youtube.com/@danfelix-dev)
+```bash
+python -m http.server 8000
+```
+
+Depois acesse:
+
+```text
+http://localhost:8000
+```
+
+## Links presentes na página
+
+- Guia gratuito
+- Ebook **IA e Fé**
+- Livro **O Código do Fim** na Amazon
+- Livro **O Código do Fim** no Clube de Autores
+- Estantya
+- Instagram do Sentinela Sagrado
+- YouTube do Sentinela Sagrado
+- LinkedIn de Daniel Félix
+
+## Personalização
+
+Para atualizar os links principais, edite a lista dentro de `index.html`.
+
+Para alterar cores, imagens de fundo, espaçamentos e comportamento visual do tema, edite as variáveis e estilos em `style.css`.
+
+Para modificar a lógica do botão de tema, edite a função `toggleMode()` em `script.js`.
+
+## Autor
+
+Projeto mantido por [Daniel Félix](https://github.com/danfelixx11).
+
+© 2026 Sentinela Sagrado. Todos os direitos reservados.
